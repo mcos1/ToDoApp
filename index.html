@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>To do list</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="h-screen w-screen flex justify-center items-center flex-col">
+      <div class="title mb-10 text-4xl text-gray-700 font-bold mt-10">
+        To Do List
+      </div>
+      <div class="container bg-gray-200 h-3/4 w-3/4">
+        <div
+          id="one"
+          class="line h-1/6 pl-4 text-xl flex justify-start items-center"
+        >
+          1.
+        </div>
+        <div
+          id="two"
+          class="line h-1/6 pl-4 flex text-xl justify-start items-center"
+        >
+          2.
+        </div>
+        <div
+          id="three"
+          class="line h-1/6 pl-4 flex text-xl justify-start items-center"
+        >
+          3.
+        </div>
+        <div
+          id="four"
+          class="line h-1/6 pl-4 flex text-xl justify-start items-center"
+        >
+          4.
+        </div>
+        <div
+          id="five"
+          class="line h-1/6 pl-4 flex text-xl justify-start items-center"
+        >
+          5.
+        </div>
+        <div
+          id="six"
+          class="line h-1/6 pl-4 flex text-xl justify-start items-center"
+        >
+          6.
+        </div>
+      </div>
+      <div class="to-do text-4xl mt-6">Add to your to do list</div>
+      <div class="w-full flex justify-center items-center">
+        <input
+          id="input"
+          type="text"
+          placeholder="To Do"
+          class="rounded-l-sm h-12 w-1/2 p-2 mt-10 mb-24 placeholder-gray-600 border border-gray-600 text-gray-900"
+        />
+        <button
+          id="submit"
+          class="bg-gray-400 h-12 rounded-r-sm py-2 px-4 mt-10 mb-24 text-gray-100 font-bold hover:text-white hover:bg-black"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
